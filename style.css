@@ -6,16 +6,68 @@ body{
     color: navajowhite;
     height: 355px;
 }
+h1{
+    max-width: 50%;
+}
 h2{
-    max-width: 750px;
+    max-width: 50%;
 }
 #image1{
     position:absolute;
     left: 1%;
+    height: 354px;
+    max-width: 25%;
 }
-#image2{
-    position:absolute;
+#image2 {
+    position: absolute;
     right: 1%;
     height: 354px;
     width: 250px;
+    max-width: 25%;
+}
+.wika {
+    border: 5px solid white;
+    color: navajowhite;
+}
+.tradisyon {
+    background-color: white;
+    color: black;
+}
+footer {
+    background-color: #000044;
+    color: white;
+}
+a {
+    color: white;
+}
+.navbar .navlist {
+    display: flex;
+    list-style-type: none;
+    background-color: #000044;
+    padding: 0px;
+    margin: 0px;
+    overflow: auto;
+    justify-content: space-evenly;
+}
+
+.navbar .navlink {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    float: left;
+    font-size: 20px;
+}
+
+    .navbar .navlink:hover {
+        background-color: #000022;
+    }
+
+.navitems {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+img{
+    max-width: 50%;
 }
