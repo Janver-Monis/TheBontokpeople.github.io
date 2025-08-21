@@ -1,0 +1,21 @@
+body{
+    background-color: saddlebrown;
+}
+.title{
+    border: 5px solid gold;
+    color: navajowhite;
+    height: 355px;
+}
+h2{
+    max-width: 750px;
+}
+#image1{
+    position:absolute;
+    left: 1%;
+}
+#image2{
+    position:absolute;
+    right: 1%;
+    height: 354px;
+    width: 250px;
+}
